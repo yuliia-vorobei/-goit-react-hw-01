@@ -1,0 +1,24 @@
+.container {
+  margin-top: 25px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.container th,
+.container td {
+  border: 1px solid #000000;
+}
+
+.header {
+  border: 1px solid #000000;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.text:nth-last-child(2n) {
+  background-color: #bfbfbf;
+}
+
+.text {
+  border: 1px solid #000000;
+}

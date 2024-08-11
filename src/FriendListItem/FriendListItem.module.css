@@ -4,9 +4,9 @@
 }
 
 .isOnline {
-  border-color: green;
+  color: #00b747;
 }
 
 .isOffline {
-  border-color: orangered;
+  color: orangered;
 }

@@ -4,10 +4,10 @@ import clsx from 'clsx';
 export default function FriendListItem({ avatar, name, isOnline }) {
   const containerClsx = clsx(isOnline ? css.isOnline : css.isOffline);
   return (
-    <div className={containerClsx}>
+    <div>
       <img src={avatar} alt="Avatar" width="48" />
       <p className={css.name}>{name}</p>
-      <p>{isOnline ? true : false}</p>
+      <p className={containerClsx}>{isOnline ? 'Online' : 'Offline'}</p>
     </div>
   );
 }

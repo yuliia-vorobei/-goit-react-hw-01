@@ -1,5 +1,4 @@
 .container {
-  /* width: 235px; */
   border-radius: 3%;
   border: 2px solid #000000;
 }
@@ -41,11 +40,16 @@
 
 .item {
   /* gap: 10px; */
-  width: 70px;
+  width: 95px;
   display: flex;
   flex-direction: column;
   background-color: #bfbfbf;
   padding: 10px;
+}
+
+.text {
+  font-weight: 500;
+  color: #000000;
 }
 
 .item:nth-last-child(2),
