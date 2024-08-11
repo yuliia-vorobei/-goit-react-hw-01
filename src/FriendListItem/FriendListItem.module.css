@@ -1,0 +1,12 @@
+.name {
+  padding-top: 3px;
+  font-weight: 600;
+}
+
+.isOnline {
+  border-color: green;
+}
+
+.isOffline {
+  border-color: orangered;
+}
